@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- incase alert is not needed, can use this div -->
+    <!-- <div class="try try-block-hide" id="try-block">
+        <div class="try-again">
+            <p class="try-txt">Your 3 tries are over, <br>Try again!</p>
+            <button class="try-btn" id="try-btn">Try Again</button>
+        </div>
+    </div> -->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -42,17 +49,18 @@
                                 <div class="button del">C</div>
                             </div>
                             <div>
-                                <button type="submit" class="submit-btn">Submit</button>
-                                <p class="action-left">3 try left</p>
+                                <button type="submit" class="submit-btn" id="submit">Submit</button>
+                                <p class="action-left"><span id="count">3</span> try left</p>
                             </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="notify-section">
-            <p class="notify not-matched">❌ Pin Didn't Match, Please try again</p>
-            <p class="notify matched">✅ Pin Matched... Secret door is opening for you</p>
+            <p class="notify " id="unmatch">❌ Pin Didn't Match, Please try again</p>
+            <p class="notify " id="match">✅ Pin Matched... Secret door is opening for you</p>
         </div>
+        
     </div>
 
     <script src="script.js"></script>

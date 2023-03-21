@@ -10,7 +10,7 @@ body {
 }
 
 .half-width {
-    height: 570px;
+    height: 580px;
     background: #222436;
     padding: 30px;
     text-align: center;
@@ -117,12 +117,50 @@ width: 100%;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
     margin: 0 auto;
 }
+
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
 }
+
+/* in case alert is not needed, can use this to access alternative html block */
+/* .try{
+    width: 100%;
+    display: block;
+}
+.try-block-hide{
+    display: none;
+}
+.try-again{
+    margin: auto;
+    width: 350px;
+    padding: 40px;
+    background: #39458C;
+    border: 5px solid #3D4153;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.try-again .try-btn{
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 6px solid #323d7a;
+    background-color: #d1360f;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.try-btn:active{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.25),
+                inset -5px -5px 10px rgba(255, 255, 255, 0.1); 
+}*/
